@@ -1,0 +1,95 @@
+{
+  "stationCollection": [
+    {
+      "id": "01",
+      "name": "Tramore",
+      "userid": "e81b4450-2edb-11ed-8371-514cc6b387dc",
+      "lat": 52.16,
+      "lng": -7.152,
+      "readings": [
+        {
+          "id": "02",
+          "code": 800,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "pressure": 1002,
+          "windDirection": 90
+        },
+        {
+          "id": "03",
+          "code": 600,
+          "temperature": 6,
+          "windSpeed": 2,
+          "pressure": 1004,
+          "windDirection": 96
+        },
+        {
+          "id": "04",
+          "code": 700,
+          "temperature": 8,
+          "windSpeed": 1,
+          "pressure": 1005,
+          "windDirection": 101
+        },
+        {
+          "id": "2dd80bd0-2ee7-11ed-9cc8-19ae19acccd0",
+          "code": "500",
+          "temperature": "23",
+          "windSpeed": "33",
+          "windDirection": "124",
+          "pressure": "1233"
+        },
+        {
+          "id": "b3b392b0-30fe-11ed-aa9f-334236cebec7",
+          "code": "300",
+          "temperature": "345",
+          "windSpeed": "756",
+          "windDirection": "",
+          "pressure": ""
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Dunmore",
+      "userid": "e81b4450-2edb-11ed-8371-514cc6b387dc",
+      "lat": 52.149,
+      "lng": -6.994,
+      "readings": [
+        {
+          "id": "06",
+          "code": 700,
+          "temperature": 8,
+          "windSpeed": 1,
+          "pressure": 999,
+          "windDirection": 98
+        },
+        {
+          "id": "07",
+          "code": 200,
+          "temperature": 0.5,
+          "windSpeed": 3.5,
+          "pressure": 1000,
+          "windDirection": 102
+        }
+      ]
+    },
+    {
+      "id": "e54be230-3100-11ed-bb25-97c956bfb5d7",
+      "userid": "e81b4450-2edb-11ed-8371-514cc6b387dc",
+      "name": "garrybvo",
+      "lat": "48.222",
+      "lng": "-9.465",
+      "readings": [
+        {
+          "id": "4e790e60-3104-11ed-af41-8b3034fae337",
+          "code": "200",
+          "temperature": "22",
+          "windSpeed": "14",
+          "windDirection": "41",
+          "pressure": "1999"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "e81b4450-2edb-11ed-8371-514cc6b387dc"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson",
+      "password": "secret",
+      "id": "0cd5e2a0-2edc-11ed-8371-514cc6b387dc"
+    }
+  ]
+}

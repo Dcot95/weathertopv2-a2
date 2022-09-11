@@ -1,0 +1,51 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    {{station.name}}
+  </h2>
+  <table class="ui selectable inverted table">
+    <thead>
+    <tr>
+      <th>{{station.name}}</th>
+      <th>Weather</th>
+      <th>Temp</th>
+      <th>Wind</th>
+      <th>Pressure</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+
+        <td>
+          <div class="item"> Lat: {{station.lat}}</div>
+          <div class="item"> Lng: {{station.lng}}</div>
+        </td>
+        <td>
+          {{weatherCode}}
+        </td>
+
+        <td>
+          {{latestReading.temperature}} C
+          <div class="item"> {{convertToFarenheit}} F</div>
+        </td>
+        <td>
+          {{beaufortConvert}}
+          <div class="item">{{windCompass}}</div>
+          <div class="item">Feels like</div>
+          <div class="item">{{windChill}}</div>
+        </td>
+
+        <td>
+          {{latestReading.pressure}} hpa
+        </td>
+
+      </tr>
+
+    </tbody>
+  </table>
+  {{> listreadings}}
+  {{> addreading}}
+</section>

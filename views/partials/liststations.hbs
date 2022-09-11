@@ -1,0 +1,52 @@
+
+{{#each stations}}
+  <section class="ui  middle aligned segment">
+    <table class="ui selectable inverted table">
+      <thead>
+      <tr>
+        <th><h2>{{name}}</h2></th>
+        <th><h2>Weather</h2></th>
+        <th><h2>Temp</h2></th>
+        <th><h2>Wind</h2></th>
+        <th><h2>Pressure</h2></th>
+        <th></th>
+      </tr>
+      </thead>
+      <tbody>
+
+      <tr>
+
+        <td>
+          <div class="item"> Lat: {{lat}}</div>
+          <div class="item"> Lng: {{lng}}</div>
+        </td>
+        <td>
+
+        </td>
+
+        <td>
+          0.0 C
+          <div class="item"> 0.0 F</div>
+        </td>
+        <td>
+          0 bft
+          <div class="item">{{stationAnalytics.windCompass}}</div>
+
+        </td>
+
+        <td>
+          0 hpa
+        </td>
+
+      </tr>
+
+      </tbody>
+    </table>
+    <a href="/station/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletestation/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}
